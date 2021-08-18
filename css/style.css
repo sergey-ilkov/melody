@@ -18,6 +18,10 @@ button {
     cursor: pointer;
     border: none;
 }
+a {
+    text-decoration: none;
+    cursor: pointer;
+}
 .header {
     background-color: #635854;
     padding: 12px 0;
@@ -69,7 +73,6 @@ button {
     margin: auto;
     padding-top: 54px;
     display: flex;
-    /* align-items: center; */
 }
 .main-info {
     flex-grow: 1;
@@ -83,9 +86,7 @@ button {
     opacity: 0;
     cursor: pointer;
 }
-.home-image path:hover {
-    opacity: 1;
-}
+
 .counter-group {
     display: flex;
     flex-direction: column;
@@ -105,7 +106,6 @@ button {
     font-size: 37px;
     line-height: 44px;
     color: #635854;
-    /* margin-bottom: 109px; */
 }
 .counter {
     font-family: 'Bebas Neue', sans-serif;
@@ -114,7 +114,6 @@ button {
     font-size: 124px;
 }
 .button-primery {
-    /* margin-top: 114px; */
     background: #3596f5;
     padding: 16px 36px;
     color: #fff;
@@ -122,4 +121,56 @@ button {
     border-radius: 6px;
     font-size: 16px;
     line-height: 19px;
+}
+.footer {
+    margin-top: 80px;
+    background-color: #d7d7d7;
+    padding: 30px 0;
+    color: #635854;
+}
+.footer__items {
+    max-width: 1280px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.footer__logo-contacts {
+    display: flex;
+    align-items: center;
+}
+
+.footer__contact {
+    display: inline-block;
+    margin-left: 37px;
+}
+.footer-text {
+    display: block;
+}
+.footer-phone {
+    color: #635854;
+    text-decoration: none;
+}
+.footer__social {
+    display: inline-block;
+    margin-left: 60px;
+}
+.footer__social a {
+    margin-left: 15px;
+}
+.footer__social a:first-child {
+    margin-left: 0;
+}
+
+.footer__menu-list {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.footer__menu-list li {
+    margin-left: 20px;
+}
+.footer__menu-list li a {
+    color: #635854;
 }
