@@ -1,8 +1,8 @@
 @font-face {
-    font-family: 'Bebas Neue Cyrillic';
-    src: local('Bebas Neue Cyrillic'), local('BebasNeueCyrillic'),
-        url('../fonts/BebasNeueCyrillic.woff2') format('woff2'),
-        url('../fonts/BebasNeueCyrillic.woff') format('woff');
+    font-family: 'Bebas Neue';
+    src: local('Bebas Neue Regular Regular'), local('BebasNeueRegular'),
+        url('../fonts/BebasNeueRegular.woff2') format('woff2'),
+        url('../fonts/BebasNeueRegular.woff') format('woff');
     font-weight: normal;
     font-style: normal;
     font-display: swap;
@@ -100,7 +100,7 @@ button {
 }
 .main-title {
     margin: 0;
-    font-family: 'Bebas Neue Cyrillic', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     font-weight: normal;
     font-size: 37px;
     line-height: 44px;
@@ -108,7 +108,7 @@ button {
     /* margin-bottom: 109px; */
 }
 .counter {
-    font-family: 'Bebas Neue Cyrillic', sans-serif;
+    font-family: 'Bebas Neue', sans-serif;
     color: #635854;
     font-weight: normal;
     font-size: 124px;
