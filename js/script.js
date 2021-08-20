@@ -10,6 +10,12 @@ $(document).ready(function () {
     var flatList = $('.flat-list .flat-link');
     var modalCounter = $('.modal-counter');
 
+    modal.on('click', function (e) {
+        if (e.target.className == 'modal is-open') {
+            modal.toggleClass('is-open');
+        }
+    });
+
     floorPath.on('mouseover', function () {
         floorPath.removeClass('current-floor');
         currentFloor = $(this).attr('data');
