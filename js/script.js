@@ -21,6 +21,7 @@ $(document).ready(function () {
 
     flats.on('mouseover', function () {
         currentFlats = $(this).attr('data-flat');
+        flats.removeClass('current-flat');
         flatList.removeClass('flat-link-hover');
         $(`[data-flat-link=${currentFlats}]`).toggleClass('flat-link-hover');
     });
